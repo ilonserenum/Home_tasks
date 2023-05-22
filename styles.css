@@ -1,0 +1,99 @@
+@font-face {
+    font-family: bpg_glaho;
+    src: url("./fonts/bpg_glaho.ttf");
+}
+
+@font-face {
+    font-family: arial_geo;
+    src: url("./fonts/arial_geo.ttf");
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color:#8BE8F5;
+}
+
+.content{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .flex{
+    align-items: center;
+}
+
+nav > ul > li {
+    font-family: "bpg_glaho";
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFEF5E;
+    list-style: none;
+    padding-left: 51px;
+}
+
+nav > ul {
+    display: flex;
+    text-align: row;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+.active {
+    color: #F90909;
+}
+
+.logo {
+    height: 47.77000045776367px;
+    width: 150px;
+}
+
+.mainnews {
+    background-color: #F29BF45E;
+    height: 401px;
+
+}
+
+.article-title {
+    font-family: "bpg_glaho";
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: #750606;
+    height: 45px;
+    padding-top: 28px;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.article-body {
+    font-family: "arial_geo";
+    color: #750606;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.pics {
+    padding-top: 70px;
+    color: #EE4036;
+    font-family: "arial_geo";
+    font-style: italic;   
+}
+
+.pics > p {
+    margin-top: 28px;
+}
+
+.footer {
+    background-color: #FFEF5E;
+    text-align: center;
+
+}
+
+.footer img{
+    margin: 36px 20px;
+}
